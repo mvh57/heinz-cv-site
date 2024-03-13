@@ -1,124 +1,77 @@
 ---
 # Display name
-title: 吳健雄
+title: Michael V. Heinz, M.D.
 
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
-
-# Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Status emoji
-status:
-  icon: ☕️
+# Username (this should match the folder name)
+authors:
+- admin
 
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position/tagline
-role: Professor of Artificial Intelligence
+# Role/position
+role: Computational Psychiatrist
 
-# Organizations/Affiliations to show in About widget
+# Organizations/Affiliations
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+- name: Dartmouth College
+  url: "https://www.dartmouth.edu"
+- name: Center for Technology and Behavioral Health @ Dartmouth
+  url: "https://www.c4tbh.org"
+- name: Dartmouth Hitchcock Medical Center
+  url: "https://www.dartmouth-hitchcock.org"
+- name: Hanover Psychiatry
+  url: "https://www.hanoverpsychiatry.net"
+
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include medical applications of machine learning.
 
-# Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+- Predictive Modeling
+- Natural Language Processing
+- Optimization and Automation in Healthcare
 
-# Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
-
-# Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Technical
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
+  - course: Psychiatry Adult Residency, Research Track
+    institution: Dartmouth Hitchcock Medical Center
+    year: 2021
+  - course: M.D.
+    institution: Creighton University School of Medicine
+    year: 2013
+  - course: BSc in Mathematics, GPA 4.0
+    institution: Creighton University College of Arts and Sciences
+    year: 2009
 
 # Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+- icon: envelope
+  icon_pack: fas
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: github
+  icon_pack: fab
+  link: https://github.com/mvh57
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: "michael.v.heinz@hitchcock.org"
+
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+user_groups:
+- Researchers
+- Visitors
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+Michael V. Heinz is a practicing psychiatrist and researcher at Dartmouth Health Center and Dartmouth College. Dr. Heinz has an interest in scalable, digital technologies for the assessment and treatment of mental health disorders, as well as identification of behavioral and physiologic biomarkers for psychiatric illness. He is completing a postdoctoral research fellowship at the Artificial Intelligence and Mental Health Lab at the Dartmouth Center for Technology and Behavioral Health, under the mentorship of Dr. Nicholas Jacobson. His present work includes the development of an A.I.-driven therapist, as well as studying major depressive disorder using dense longitudnal time series data from wearable devices and mobile phones.  
+
+Dr. Heinz is a member of the Psychiatry Immunology and Neurology Group at Dartmouth College under the direction of Dr. Juliette Madan, and is working with multiple centers on a national incidence study for pediatric mental disorders with immunologic and neurologic etiologies. Dr. Heinz sees patients at Hanover Psychiatry, a faculty-founded private practice in Hanover NH. He has a clinical interest in mood and anxiety disorders. 
+
